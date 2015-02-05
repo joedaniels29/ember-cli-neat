@@ -1,8 +1,12 @@
-# ember-cli-bourbon
+# ember-cli-neat
 
-Include bourbon in an ember-cli app.
 
-When the addon is installed, it will add bourbon 3.2.1 as
+###WORK IN PROGRESS. DO NOT USE YET.
+
+
+Include bourbon's neat in an ember-cli app.
+
+When the addon is installed, it will add neat 1.7.1 as
 a bower dependency. (The newer bourbon 4.0.x is not compatible with node-sass at the time of
 this writing).
 
@@ -16,12 +20,12 @@ Your project should already be set up to handle sass/scss builds. If you're not,
 
 In your ember-cli (>= 0.1.1) project, run:
 
-    npm install ember-cli-bourbon --save-dev
-    ember g ember-cli-bourbon
+    npm install ember-cli-neat --save-dev
+    ember g ember-cli-neat
 
 The generator will create an `app.scss` with the sole contents being:
 
-    @import "bourbon";
+      @import "neat";
 
 If you already have content in your `app.scss`, you can just choose "n" and add that
 line to the top of `app.scss` yourself.
