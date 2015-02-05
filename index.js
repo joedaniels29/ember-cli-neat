@@ -8,10 +8,10 @@ module.exports = {
   },
   treeForStyles: function() {
     var neatPath = path.join(this.app.bowerDirectory, 'neat', 'dist');
-    var neatTree = this.pickFiles(this.treeGenerator(bourbonPath), {
+    var neatTree = this.pickFiles(this.treeGenerator(neatPath), {
       srcDir: '/',
       destDir: '/app/styles'
     });
-    return bourbonTree;
+    return neatTree;
   }
 };
