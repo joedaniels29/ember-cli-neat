@@ -6,6 +6,8 @@ module.exports = {
   },
 
   afterInstall: function(options) {
-    return this.addBowerPackageToProject('neat', '1.6.0');
+    this.addBowerPackageToProject('bourbon', '3.2.4');
+    this.addBowerPackageToProject('neat', '1.6.0');
+
   }
 };
