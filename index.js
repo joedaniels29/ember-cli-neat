@@ -6,8 +6,8 @@ module.exports = {
   blueprintsPath: function() {
     return path.join(__dirname, 'blueprints');
   },
-  treeForStyles: function(app) {
-    var neatPath = path.join(app.bowerDirectory, 'neat', 'app', 'assets', 'stylesheets');
+  treeForStyles: function() {
+    var neatPath = path.join(this.app.bowerDirectory, 'neat', 'app', 'assets', 'stylesheets');
     var neatTree = this.pickFiles(this.treeGenerator(neatPath), {
       srcDir: '/',
       destDir: '/app/styles'
