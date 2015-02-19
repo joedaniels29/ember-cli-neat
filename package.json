@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-neat",
   "description": "Include boubon in an ember-cli app",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -18,7 +18,7 @@
   "author": "",
   "license": "MIT",
   "dependencies":{
-    "ember-cli-bourbon":"https://github.com/joedaniels29/ember-cli-bourbon"
+    "ember-cli-bourbon":"joedaniels29/ember-cli-bourbon"
   },
   "devDependencies": {
     "body-parser": "^1.2.0",
