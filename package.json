@@ -18,7 +18,7 @@
   "author": "",
   "license": "MIT",
   "dependencies":{
-    "ember-cli-bourbon":"^0.0.5"
+    "ember-cli-bourbon":"https://github.com/joedaniels29/ember-cli-bourbon"
   },
   "devDependencies": {
     "body-parser": "^1.2.0",
